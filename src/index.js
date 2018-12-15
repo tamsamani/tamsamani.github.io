@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Page from "./Page";
+import Page from "./Modules/Page";
 
 import "./styles.css";
 
@@ -9,12 +9,10 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<Page name="main" />
-				<h1>Hello CodeSandbox</h1>
-				<h2>Start editing to see some magic happen!</h2>
 			</div>
 		);
 	}
 }
 
-const rootElement = document.getElementById("root");
+const rootElement = document.querySelector("#root");
 ReactDOM.render(<App />, rootElement);
