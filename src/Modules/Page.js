@@ -9,7 +9,7 @@ const footerLinks = {
 	Main: "#main",
 	About: "/about",
 	MyBudget: "/mubudget",
-	AuthoChoice: "/authorchoice"
+	AuthorChoice: "/authorchoice"
 };
 
 export default class Page extends React.Component {
